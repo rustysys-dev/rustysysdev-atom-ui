@@ -1,0 +1,33 @@
+@import "ui-mixins";
+@import "ui-variables";
+
+.panel {
+  &.bordered {
+    border: 1px solid @base-border-color;
+    border-radius: @component-border-radius;
+  }
+}
+
+atom-panel,
+.tool-panel {
+  position: relative;
+
+  background: @tool-panel-background-color !important;
+}
+
+atom-panel.bottom {
+  background: darken(@app-background-color, 3%);
+  .text(normal);
+
+  .inline-block {
+    padding: 0 5px;
+  }
+}
+
+.atom-dock-resize-handle {
+  background: @background-dktn-v2;
+}
+
+.atom-dock-toggle-button .atom-dock-toggle-button-inner {
+  background-color: @background-dktn-v2;
+}

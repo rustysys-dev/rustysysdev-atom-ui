@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/resonance-ui/versions/0.11.0/tarball",
+  "_id": "resonance-ui@0.11.0",
+  "_inBundle": false,
+  "_integrity": "sha512-xv1cts9ni8OSCkPXhlPSWW8ZerYXJOScLRLEvxJu13A7Y13Zzw+sJjO6TUlF8th1PPd/ct2tCnW55n1iEJ3nfA==",
+  "_location": "/resonance-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/resonance-ui/versions/0.11.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/resonance-ui/versions/0.11.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/resonance-ui/versions/0.11.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/resonance-ui/versions/0.11.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/resonance-ui/versions/0.11.0/tarball",
+  "_shasum": "0cdc490beea6bc766f9b3d5ec77fbcb7b97f008c",
+  "_spec": "https://www.atom.io/api/packages/resonance-ui/versions/0.11.0/tarball",
+  "_where": "/tmp/apm-install-dir-202088-510718-5p51w.1cdyqa",
+  "activationCommands": {
+    "atom-workspace": "resonance-ui:toggle"
+  },
+  "author": {
+    "name": "Adam Szlachta"
+  },
+  "bugs": {
+    "url": "https://github.com/dktn/resonance-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A minimal, compact, distraction free interface.",
+  "engines": {
+    "atom": ">=1.1.0"
+  },
+  "homepage": "https://github.com/dktn/resonance-ui#readme",
+  "license": "MIT",
+  "main": "./lib/resonance-ui",
+  "name": "resonance-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dktn/resonance-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.11.0"
+}
