@@ -1,4 +1,4 @@
-# Resonance Atom UI theme - resonance-ui package
+# RustySysDev Atom UI theme - based on resonance-ui package
 
 A minimal UI.
 Compact, distraction free, configurable.
