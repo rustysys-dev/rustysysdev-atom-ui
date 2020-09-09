@@ -24,10 +24,28 @@ atom-panel.bottom {
   }
 }
 
-.atom-dock-resize-handle {
-  background: @background-dktn-v2;
+atom-pane-resize-handle.vertical::before {
+  height: 2px !important;
+  top: -1px !important;
+  background-color: @background-dktn-v2;
+}
+
+atom-pane-resize-handle.horizontal::before {
+  width: 2px !important;
+  left: -1px !important;
+  background-color: @background-dktn-v2;
+}
+
+.atom-dock-resize-handle.atom-dock-resize-handle-resizable.bottom {
+  background-color: @background-dktn-v2;
+  height: 2px !important;
 }
 
 .atom-dock-toggle-button .atom-dock-toggle-button-inner {
   background-color: @background-dktn-v2;
+}
+
+.atom-dock-resize-handle.left, .atom-dock-resize-handle.right {
+  background-color: @background-dktn-v2;
+  width: 2px !important;
 }
